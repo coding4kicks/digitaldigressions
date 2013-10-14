@@ -1,0 +1,38 @@
+body {
+  background: black;
+}
+
+.credits {
+  float: right;
+}
+
+.title {
+  background: black;
+  color: white;
+  margin-top: -113px;
+  padding-left: 40px;
+  width: 270px;
+  z-index: 5;
+}
+
+h1 {
+  font-size: 40pt;
+  margin: 0px;
+}
+
+.col-left, .col-right {
+  display: inline-block;
+  padding: 10px;
+  width: 40%;
+}
+
+h3 {
+  color: #BBBBBB;
+  padding-left: 20px;
+}
+
+p {
+  width: 400px;
+  color: #BBBBBB;
+  padding-left: 20px;
+}
