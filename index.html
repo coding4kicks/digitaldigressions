@@ -1,7 +1,7 @@
 <html>
   <head>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link type="text/css" href="dd.css" rel="stylesheet">
     <meta charset="utf-8">
     <title>Digital Digressions</title>
@@ -19,13 +19,14 @@
           <a href="writings/awayforward.html"><h3>A Way Forward for National Security</h3></a>
         </div>
         <div class="col-right">
+           <a href="writings/codetry.html"><h3>Codetry - Life</h3></a>
         </div>
       </div>
       <div class="credits">
         <button id="play">Play</button>
         <button id="pause">pause</button>
-        <a href="http://www.arungudelli.com/2013/09/matrix-effect-using-html5-and-javascript.html">
-          <h3>Matrix Redesigned by <i>Arunkumar Gudelli</i></h3>
+        <a href="http://www.arungudelli.com/2013/09/matrix-effect-using-html5-and-javascript.html" target="_blank">
+            <h5>Matrix Redesigned by <br><i>Arunkumar Gudelli</i></h5>
         </a>
       </div>
     </div>
@@ -72,6 +73,7 @@
         $("button#pause").click(function(){
         StopMatrix();});
         $("button#play").click(function(){RunMatrix();});
+        setTimeout(function(){StopMatrix();}, 1000*5);
          
       })
     </script>
